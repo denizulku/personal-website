@@ -38,3 +38,22 @@ a {
     font-weight: bold;
 
 }
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+
+}
+.contact {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    text-align: center;
+
+}
+
+.links {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    justify-content: center;
+}
