@@ -3,7 +3,7 @@
 }
 
 body {
-    padding: 50px 50px;
+    margin: 0px;
     font-size: 112.5%;
     font-family: 'Roboto', sans-serif;
     background-color: #dadada;
@@ -11,12 +11,10 @@ body {
 }
 
 .h1,h2,h3 {
-
     font-family: 'Crimson Text', serif;
     font-style: 150%;
 
 }
-
 
 img {
     max-width: 100%;
@@ -26,31 +24,64 @@ a {
     color: floralwhite;
 }
 
-.main {
-    display: grid;
-    grid-template-columns: auto 50% auto;
-    grid-template-rows: repeat(3, auto);
-    grid-gap: 1em;
-
-}
-
 header, footer {
-    grid-column: 1 / -1;
+    grid-column: 1 / 4;
   }
 
-.footer {
-    display: flex;
-    flex-basis: 100%;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
 
+header img {
+    height: 200px;
 }
 
-.header {
+.grid {
     display: grid;
-    grid-auto-flow: dense;
-    background-color: #ffee56;
-    padding: 10%;
-    
+    grid-template-rows: repeat(3, 100%);
+    grid-gap: 1em;
+}
+
+@media (max-width: 900px) {
+    .grid {
+        grid-template-columns: 0% auto 25%;
+        font-size: 90%;
+        
+    }
+}
+
+@media (min-width: 900px) {
+    .grid {
+        grid-template-columns: 25% auto 25%;
+    }
+}
+
+header, footer > * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.footer-item img {
+    width: 50px;
+}
+
+.footer-item div {
+    display: block;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-between;
+}
+
+.item {
+    display: block;
+}
+
+header {
+    background-color: yellow;
+}
+
+.footer-item {
+    display: block;
 }
