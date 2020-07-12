@@ -28,21 +28,15 @@ a {
 
 .main {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto 50% auto;
     grid-template-rows: repeat(3, auto);
     grid-gap: 1em;
 
 }
 
-.item2 {
-    display: flex;
-    margin: auto;
-    font-weight: bold;
-    flex-direction: row;
-    width: 100%;
-    padding-top: 10px;
-
-}
+header, footer {
+    grid-column: 1 / -1;
+  }
 
 .footer {
     display: flex;
@@ -56,8 +50,6 @@ a {
 .header {
     display: grid;
     grid-auto-flow: dense;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr;
     background-color: #ffee56;
     padding: 10%;
     
