@@ -80,12 +80,12 @@ header, footer > * {
 nav {
     padding: 10px;
     width: auto;
-    background-color: #f3f1f1;
+    background-color: #dadada;
     border-radius: 20px;
     display: flex;
     justify-content: space-around;
   }
-  
+
 header {
     background-color: rgb(223, 201, 77);
 }
