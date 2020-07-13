@@ -4,6 +4,7 @@
 
 body {
     margin: 0px;
+    padding: 2px;
     font-size: 112.5%;
     font-family: 'Roboto', sans-serif;
     background-color: #dadada;
@@ -16,9 +17,6 @@ body {
 
 }
 
-img {
-    max-width: 100%;
-}
 
 a { 
     color: floralwhite;
@@ -74,9 +72,12 @@ footer {
 .itemcv {
     background-color: rgb(223, 201, 77);
     box-shadow: black;
+    padding-bottom: 10px;
+    box-shadow: 5px 10px #888888;
 }
 
 nav {
+    font-size: 70%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -90,25 +91,21 @@ header {
     display: grid;
     align-items: center;
     justify-items: center;
+    padding: 10px;
 }
 
 
 /* mobile */
-/* @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
 
     .article {
     font-size: 50%;
 }
-    .footer {
-        display: grid;
-        grid-template-rows: repeat(3, 1fr);
-        grid-template-columns: 1fr;
-    }
-} */
+} 
 
-/* desktop
+/* desktop */
 @media (max-width: 992px) {
-    .grid {
-        grid-template-columns: 25% auto 25%;
+    .footer {
+        grid-template-columns: 1fr 1fr 1fr;
     }
-} */
+} 
