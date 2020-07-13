@@ -78,12 +78,14 @@ header, footer > * {
 }
 
 nav {
-    font-size: 90%;
+    padding: 10px;
+    width: auto;
+    background-color: #f3f1f1;
+    border-radius: 20px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
+    justify-content: space-around;
+  }
+  
 header {
     background-color: rgb(223, 201, 77);
 }
