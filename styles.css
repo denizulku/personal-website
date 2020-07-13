@@ -71,11 +71,22 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-content: space-between;
 }
 
 .item {
-    display: block;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 header {
@@ -83,5 +94,7 @@ header {
 }
 
 .footer-item {
-    display: block;
+    display: grid;
+    align-items: center;
+    justify-items: center;
 }
