@@ -4,7 +4,7 @@
 
 body {
     margin: 0px;
-    padding: 2px;
+    /* padding: 2px; */
     font-size: 112.5%;
     font-family: 'Roboto', sans-serif;
     background-color: #dadada;
@@ -52,14 +52,14 @@ header, footer > * {
     display: block;
 }
 
-footer {
+/* footer {
     display: flex;
     flex-direction: row;
     align-items: center;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-content: space-between;
-}
+} */
 
 .item {
     display: grid;
@@ -74,10 +74,11 @@ footer {
     box-shadow: black;
     padding-bottom: 10px;
     box-shadow: 5px 10px #888888;
+    font-size: 0%;
 }
 
 nav {
-    font-size: 70%;
+    font-size: 90%;
     display: flex;
     align-items: center;
     justify-content: center;
