@@ -1,74 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Deniz' personal website</title>
-        <link rel="stylesheet" href="styles.css">
-        <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Roboto:wght@300&display=swap" rel="stylesheet">  
-    </head>
-    <body>
-        <a name="top"></a>
-        <!-- <section id="nav">         -->
-            <nav>
-                <a href="#interests">Interests</a> &middot;
-                <a href="#bio">About me</a> &middot;
-                <a href="#cv">CV</a> &middot;
-                <a href="#footer">Contact</a>                    
-            </nav>
-        <!-- </section> -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deniz' personal website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <a name="top"></a>
+    <nav>
+      <a href="#interests">Interests</a> &middot;
+      <a href="#bio">About me</a> &middot; <a href="#cv">CV</a> &middot;
+      <a href="#footer">Contact</a>
+    </nav>
 
-        <header>
-            <img src="img/IMG_8723.JPG">
-            <h1 class="h1">Moin! <br> I'm Deniz Ece</h1>
-        </header>
+    <header>
+      <img src="img/IMG_8723.JPG" />
+      <h1 class="h1">
+        Moin! <br />
+        I'm Deniz Ece
+      </h1>
+    </header>
 
+    <h2 id="bio">About me</h2>
+    <div class="about">
+      <p>
+        Hi, my name is Deniz & I'm from Hamburg, born & raised. I studied
+        Communication and Media Management in Hamburg as well as in Orange
+        County, California. Since my graduation, I have worked in online
+        marketing - specifically search engine marketing - and public relations.
+      </p>
+    </div>
 
-                <div class="box interests">
-                    <h2 id="interests">My interests and skills</h2>
-                    <ul>
-                   <li>Search Engine Advertising </li>
-                    <li>Social Media Advertising </li>
-                    <li>Public Relations </li>
-                    <li>Adobe Photoshop </li>
-                    <li>Acrylic Painting </li>
-                    <li>Extreme Beginner in Japanese</li>              
-                </ul>
-                </div>
-        
-                <div class="about">
-                    <h2 id="bio">About me</h2>
-                    <p>Hi, my name is Deniz & I'm from Hamburg, born & raised. I studied Communication and Media Management in Hamburg as well as in Orange County, California. 
-                    Since my graduation, I have worked in online marketing - specifically search engine marketing - and public relations.</p>
-                </div>
+    <h2 id="interests">My interests and skills</h2>
+    <div class="box interests">
+      <ul>
+        <li>Search Engine Advertising</li>
+        <li>Social Media Advertising</li>
+        <li>Public Relations</li>
+        <li>Adobe Photoshop</li>
+        <li>Acrylic Painting</li>
+        <li>Extreme Beginner in Japanese</li>
+      </ul>
+    </div>
 
-        
-                <div class="box cv">
-                    <h2 id="cv">Curriculum vitae</h2>
-                    <strong>since July 2020</strong> Web Development Trainee @ neue fische <br><br>
-                    <strong>July 2019 - July 2020</strong> Marketing & PR Manager @ Dr. Ansay GmbH <br><br>
-                    <strong>January 2017 - July 2019</strong> Content Specialist Online @ Staples Deutschland GmbH <br><br>
-                    <strong>January 2015 - July 2015</strong> Semester abroad @ California State University Fullerton<br><br>
-                    <strong>October 2013 - July 2017</strong> B.Sc. Communication & Media Management @ UE Hamburg
-                </div>
+    <h2 id="cv">Curriculum vitae</h2>
+    <section class="box cv">
+      <table>
+        <tr>
+          <td><strong>since July '20</strong></td>
+          <td>
+            <strong>Web Development Trainee <br />@ neue fische</strong>
+          </td>
+        </tr>
+        <tr>
+          <td>Jul '19 - Jul '20</td>
+          <td>Marketing & PR Manager <br />@ Dr. Ansay GmbH</td>
+        </tr>
+        <tr>
+          <td>Oct '17 - Jul '19</td>
+          <td>Content Specialist Online <br />@ Staples Deutschland GmbH</td>
+        </tr>
+        <tr>
+          <td>Jan '15 - May '15</td>
+          <td>Semester abroad <br />@ California State University Fullerton</td>
+        </tr>
+        <tr>
+          <td>Oct '13 - Aug '17</td>
+          <td>B.Sc. Communication & Media Management <br />@ UE Hamburg</td>
+        </tr>
+      </table>
+    </section>
 
-            <footer>
-                    <h2 id="footer">Contact me!</h2><br>
-                    <ul>
-                        <li><a href="https://www.denizece.com">denizece.com</a></li>
-                        <li><a href="mailto:info@denizece.com">Shoot me an email</a></li>
-                    </ul>
+    <footer>
+      <h2 id="footer">Contact me!</h2>
+      <br />
+      <ul>
+        <li><a href="https://www.denizece.com">denizece.com</a></li>
+        <li><a href="mailto:info@denizece.com">Shoot me an email</a></li>
+      </ul>
 
-                    <!-- <h2>Follow me</h2>
-                    <a href="https://codepen.io/denizulku"><img src="img/codepen.png" alt="codepen"></a>
-                    <a href="https://github.com/denizulku"><img src="img/github.png" alt="github"></a> -->
+      <h2>Follow me</h2>
+      <div class="footeritem">
+        <a href="https://codepen.io/denizulku"
+          ><img src="img/codepen.png" alt="codepen"
+        /></a>
+        <a href="https://github.com/denizulku"
+          ><img src="img/github.png" alt="github"
+        /></a>
+      </div>
 
-                    <h2>Other</h2>
-                    <ul>
-                        <li><a href="#">Imprint</a></li>
-                        <li><a href="#top">Back to top</a></li>
-                    </ul> 
-            </footer>    
-     
-    </body>
+      <h2>Other</h2>
+      <ul>
+        <li><a href="#">Imprint</a></li>
+        <li><a href="#top">Back to top</a></li>
+      </ul>
+    </footer>
+  </body>
 </html>
