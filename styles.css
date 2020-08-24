@@ -53,6 +53,7 @@ header {
   top: 0;
   grid-template-columns: repeat(2, 1fr);
   background-color: rgb(223, 201, 77);
+  align-items: center;
 }
 
 p {
@@ -81,7 +82,8 @@ nav {
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  background-color: papayawhip;
+  background-color: white;
+  box-shadow: 15px 15px 15px black;
   text-decoration: none;
   border-radius: 10px;
 }
@@ -102,9 +104,10 @@ nav {
 }
 
 .cv {
-  display: grid;
   list-style: none;
   font-size: 70%;
+  height: 50vh;
+  line-height: 15px;
 }
 .footer {
   display: grid;
@@ -119,7 +122,7 @@ table {
 }
 
 td {
-  padding: 2px;
+  padding: 13px;
 }
 
 .footeritem {
